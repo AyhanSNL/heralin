@@ -1,6 +1,6 @@
 <?php
 try {
-    $db=new PDO("mysql:host=localhost;dbname=rekbil_e11;charset=utf8",'rekbil_e11','abcd25abcd25*');
+    $db=new PDO("mysql:host=localhost;dbname=heralindb;charset=utf8",'heralindbu','h3q0q8!1N');
     $rewurlbase="/";
 }
 catch (PDOExpception $e) {
