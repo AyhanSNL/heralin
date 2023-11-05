@@ -81,7 +81,7 @@
     <script type="text/javascript">
 
         $(document).ready( function () {
-            $('#glasscase').glassCase({ 'thumbsPosition': 'left', 'widthDisplay': '600', 'heightDisplay' :'<?php if($urun_galeri->rowCount()>'0') { ?>730<?php }else{?>520<?php } ?>', 'nrThumbsPerRow' : '<?=$udetayRow['galeri_thumb']?>'});
+            $('#glasscase').glassCase({ 'thumbsPosition': 'left', 'widthDisplay': '600', 'heightDisplay' :'900', 'nrThumbsPerRow' : '<?=$udetayRow['galeri_thumb']?>'});
         });
 
     </script>
